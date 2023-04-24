@@ -1,18 +1,18 @@
-def maxchislo():
-    list = [-1, 1]
-    max_number = max(list)
+def maxchislo(x, y):
+    # list = [-1, 1]
+    max_number = max(x, y)
     print ('наибольшее число', max_number)
-maxchislo()
+maxchislo(-1, 1)
 
 
-def otlichie():
-    a = 50
-    b = 100
-    if a and b == 135:
+def otlichie(a, b):
+    # a = 50
+    # b = 100
+    if max(a, b) - min(a, b) ==135:
         print('yes')
     else:
         print('No')
-otlichie()
+otlichie(50, 100)
 
 def season(m):
     if m == 12 or m < 3:
@@ -27,15 +27,13 @@ m = int(input('Введите номер месяца: '))
 print(season(m))
 
 
-def proizvol():
-    a = 4
-    b = 5
-    c = 6
+def proizvol(a, b, c):
     if a > 10 and b > 10 and c > 10:
         print('Yes')
-    if a < 10 and b < 10 and c < 10:
+    # if a < 10 and b < 10 and c < 10:
+    else:
         print('No')
-proizvol()
+proizvol(11, 12, 13)
 
 
 
