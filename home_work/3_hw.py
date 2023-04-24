@@ -8,7 +8,7 @@ maxchislo(-1, 1)
 def otlichie(a, b):
     # a = 50
     # b = 100
-    if max(a, b) - min(a, b) ==135:
+    if max(a, b) - min(a, b) == 135:
         print('yes')
     else:
         print('No')
