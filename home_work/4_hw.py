@@ -32,6 +32,42 @@ class Math:
 
 
 
+class Bar:
+    def __init__(self, text, tip='knopka', loc=('')):
+        self.text = text
+        self.tip = tip
+        self.loc = loc
 
+    def push(self):
+        return print('Клик по кнопке')
 
+k1 = Bar('Text Box')
+k2 = Bar('Check Box')
+k3 = Bar('Radio Button')
+k4 = Bar('Web Tables')
+k5 = Bar('Buttons')
+k6 = Bar('Links')
+k7 = Bar('Broken Links - Images')
+k8 = Bar('Upload and Download')
+k9 = Bar('Dynamic Properties')
+
+print(k1.text)
+print(k2.text)
+print(k3.text)
+print(k4.text)
+print(k5.text)
+print(k6.text)
+print(k7.text)
+print(k8.text)
+print(k9.text)
+
+k1.push()
+k2.push()
+k3.push()
+k4.push()
+k5.push()
+k6.push()
+k7.push()
+k8.push()
+k9.push()
 
